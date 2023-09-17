@@ -1,0 +1,133 @@
+.header {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+    background-color: white;
+
+    height: 55px;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 200;
+  }
+  .leftsec {
+    display: flex;
+    align-items: center;
+  }
+  .ham {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.ytblogo {
+    height: 20px;
+}
+
+  .middlesec {
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    align-items: center;
+  }
+  .search-bar {
+    flex: 1;
+    height: 36px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+  }
+  .search-bar::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+  }
+  .srchbtn {
+    height: 39px;
+    width: 66px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    background-color: rgba(128, 128, 128, 0.159);
+    margin-left: -1px;
+    margin-right: 10px;
+    position: relative;
+  }
+  .srchbtn .help {
+    position: absolute;
+    botto
+    background-color: grey;
+    color: white;
+    padding: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+  }
+  .srchicn {
+    height: 25px;
+    margin-top: 4px;
+
+  }
+  .voicebtn {
+    height: 39px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+  }
+  .voiceicn {
+    height: 24px;
+    margin-top: 4px;
+
+  }
+  .rightsec{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  .upld {
+    height: 24px;
+  }
+  .apps {
+    height: 24px;
+  }
+  .notifdiv {
+    position: relative;
+  }
+  .notifcnt {
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: rgb(238, 3, 3);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+  }
+  .notif {
+    height: 24px;
+  }
+  .my {
+    height: 32px;
+    border-radius: 16px;
+
+  }
+

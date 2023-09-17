@@ -1,0 +1,34 @@
+.sidebar {
+    position: fixed;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 72px;
+    z-index: 300;
+    padding-top: 5px;
+}
+.sbtn  {
+    height: 74px;
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+}
+.sbtn:hover {
+    background-color: rgb(228, 226, 226);
+}
+.sbtn img {
+        height: 24px;
+        margin-bottom: 4px;
+}
+.sbtn p {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    padding-top: 2px;
+}
+
